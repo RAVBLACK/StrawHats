@@ -1922,7 +1922,7 @@ def launch_gui(user_info):
 
             developer_text_color = "#0066cc" if is_light_mode else "#aad6ff"
             tk.Label(
-                content_frame, text="Developed by: xEN coders", bg=container_bg,
+                content_frame, text="Developed by: StrawHats", bg=container_bg,
                 fg=developer_text_color, font=("Segoe UI", 12, "italic")
             ).pack(anchor="w", pady=(20, 8))
 
@@ -2261,6 +2261,6 @@ class SettingsWindow(tk.Toplevel):
         tk.Label(frame, text=desc, bg="#23272A", fg="#fff",
                  font=("Segoe UI", 11), justify="left", wraplength=380
                  ).pack(pady=(52, 8), padx=18)
-        tk.Label(frame, text="Developed by: xEN coders", bg="#23272A",
+        tk.Label(frame, text="Developed by: StrawHats", bg="#23272A",
                  fg="#aad6ff", font=("Segoe UI", 12, "italic")).pack(pady=(12, 8), padx=18)
         self.panels["About"] = frame
